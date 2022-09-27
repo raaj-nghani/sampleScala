@@ -23,9 +23,6 @@ object prog2 {
 					val fildata = data.map(len => len.length()>200)
 					fildata.take(10).foreach(println)
 					
-					println(" ----- Split Data ----- ")
-					val split = fildata.flatMap(x => x.split(","))
-					split.take(10).foreach(println)
 					
 	}
 }
